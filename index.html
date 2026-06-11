@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Agenda</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Minha Agenda</h1>
+
+    <input type="number" id="dia" placeholder="Dia" min="1" max="31">
+    <input type="number" id="mes" placeholder="Mês" min="1" max="12">
+    <input type="number" id="ano" placeholder="Ano">
+
+    <input type="time" id="horario">
+
+    <textarea id="descricao" placeholder="Digite o compromisso"></textarea>
+
+    <label>
+        <input type="checkbox" id="importante">
+        Compromisso importante
+    </label>
+
+    <button onclick="adicionar()">Adicionar</button>
+    <button onclick="baixarPDF()">Baixar PDF</button>
+
+    <div id="lista"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="./src/js/script.js"></script>
+
+</body>
+</html>
