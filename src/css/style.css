@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background: #f0f2f5;
+    background: #103c7c;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,8 +35,8 @@ button{
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: #007bff;
-    color: white;
+    background: #0f4117;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }
 
